@@ -1,0 +1,73 @@
+  @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  font-family: 'Montserrat', Sans-Serif;
+}
+
+body {
+  background: url("http://hires.photospublic.com/PP14341112-Colourfull-Sky-Cloudy-Sunset.jpg") no-repeat fixed center;
+  background-size: cover;
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+  margin: 5%;
+  font-size: 4.0em;
+  font-color: rgb(64,64,64);
+}
+
+#head {
+  color: rgb(64,64,64);
+  margin-top: 5%;
+
+}
+
+#tempIcon {
+  width: 100%;
+  margin: auto;
+  font-size: 4.0em;
+}
+
+h1, h2 {
+  font-size: 4.5em;
+  padding: 2%;
+}
+
+.btn-group {
+  float: right;
+  margin: 2% 2% 0% 0%;
+  : 0 none;
+}
+
+.btn {
+    background: none;
+    border: 3px solid rgb(64,64,64);
+    font-size: 1.6em;
+}
+
+.btn.active {
+  background: rgb(204, 221, 255);
+  border: 3px solid rgb(64,64,64);
+}
+
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+}
+
+#fahr {
+  position: absolute;
+  left: 45%;
+  display: none;
+}
+
+#cels {
+  posiiton: relative;
+  display: inline;
+}
+
+#tempIcon {
+ width: 100px;
+  height: auto;
+}
