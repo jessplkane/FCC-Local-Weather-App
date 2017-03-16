@@ -37,13 +37,12 @@ h1, h2 {
 .btn-group {
   float: right;
   margin: 2% 2% 0% 0%;
-  : 0 none;
 }
 
 .btn {
-    background: none;
-    border: 3px solid rgb(64,64,64);
-    font-size: 1.6em;
+  background: none;
+  border: 3px solid rgb(64,64,64);
+  font-size: 1.6em;
 }
 
 .btn.active {
@@ -52,8 +51,8 @@ h1, h2 {
 }
 
 .btn.outline {
-	background: none;
-	padding: 12px 22px;
+  background: none;
+  padding: 12px 22px;
 }
 
 #fahr {
